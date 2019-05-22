@@ -14,7 +14,7 @@ CONFIG = {
     'deploy_path': 'output',
     # Remote server configuration
     'production': 'root@localhost:22',
-    'dest_path': '/home/shane/projects/python-projects/noapes.io',
+    'dest_path': '/var/www',
     # Port for `serve`
     'port': 8000,
 }

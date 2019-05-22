@@ -11,7 +11,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 SSH_HOST=localhost
 SSH_PORT=22
 SSH_USER=root
-SSH_TARGET_DIR=/home/shane/projects/python-projects/noapes.io
+SSH_TARGET_DIR=/var/www
 
 
 DEBUG ?= 0
