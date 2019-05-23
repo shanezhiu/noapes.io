@@ -17,6 +17,11 @@ THEME = 'themes/pelican-alchemy/alchemy'
 
 SITEIMAGE = 'theme/images/profile.jpeg width=200 height=200'
 
+
+EXTRA_PATH_METADATA = {
+    'extras/favicon.ico': {'path': 'favicon.ico'},
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
