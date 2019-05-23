@@ -15,6 +15,8 @@ DEFAULT_LANG = 'English'
 # Theme
 THEME = 'themes/pelican-alchemy/alchemy'
 
+SITEIMAGE = 'theme/images/profile.jpeg width=200 height=200'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
