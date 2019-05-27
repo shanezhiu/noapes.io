@@ -3,10 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Shane Chiu'
-SITENAME = "Noapes'blog"
+SITENAME = "Noapes' blog"
 SITEURL = ''
 
 PATH = 'content'
+PAGE_PATHS=['pages']
 
 TIMEZONE = 'Asia/Shanghai'
 
@@ -15,7 +16,7 @@ DEFAULT_LANG = 'English'
 # Theme
 THEME = 'themes/pelican-alchemy/alchemy'
 
-SITEIMAGE = 'theme/images/profile.jpeg width=200 height=200'
+SITEIMAGE = '/images/profile.jpeg width=200 height=200'
 
 
 EXTRA_PATH_METADATA = {
@@ -42,4 +43,6 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+#RELATIVE_URLS = True~
+
+DISPLAY_PAGES_ON_MENU = True
