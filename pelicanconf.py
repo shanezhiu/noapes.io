@@ -4,14 +4,17 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Shane Chiu'
 SITENAME = "Noapes' blog"
-SITEURL = ''
+SITESUBTITLE = 'Stay hungry, Stay foolish'
 
 PATH = 'content'
 PAGE_PATHS=['pages']
 
 TIMEZONE = 'Asia/Shanghai'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
+
+# Time and Date
+DEFAULT_DATE = 'fs'
 
 # Theme
 THEME = 'themes/pelican-alchemy/alchemy'
@@ -30,17 +33,38 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = ARTICLE_URL
+ARTICLE_LANG_URL = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
+ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),
+#          ('You can modify those links in your config file', '#'),)
+
+# ICONS 
+ICONS = [
+    ('github', 'https://github.com/shanezhiu'),
+    ('twitter', 'https://twitter.com/shanezhiu'),
+    ('stack-overflow', 'https://stackoverflow.com/users/2671683/shanechiu'),
+    ('reddit', 'https://www.reddit.com/user/shanechiu')
+]
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
+
+PYGMENTS_STYLE = 'monokai'
+RFG_FAVICONS = True
+
+# Default value is ['index', 'tags', 'categories', 'authors', 'archives']
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'sitemap']
+SITEMAP_SAVE_AS = 'sitemap.xml'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True~
