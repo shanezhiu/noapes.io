@@ -40,17 +40,17 @@ ARTICLE_LANG_URL = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
 
 # Blogroll
-# LINKS = (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+# LINKS = (
+#     ('Index', '/'),
+#     ('About', '/pages/about.html'),
+#     )
 
 # ICONS 
 ICONS = [
     ('github', 'https://github.com/shanezhiu'),
-    ('twitter', 'https://twitter.com/shanezhiu'),
     ('stack-overflow', 'https://stackoverflow.com/users/2671683/shanechiu'),
-    ('reddit', 'https://www.reddit.com/user/shanechiu')
+    ('twitter', 'https://twitter.com/shanezhiu'),
+    ('reddit', 'https://www.reddit.com/user/shanechiu'),
 ]
 
 # Social widget
@@ -60,7 +60,6 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 PYGMENTS_STYLE = 'monokai'
-RFG_FAVICONS = True
 
 # Default value is ['index', 'tags', 'categories', 'authors', 'archives']
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'sitemap']
