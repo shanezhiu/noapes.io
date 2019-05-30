@@ -23,7 +23,7 @@ SITEIMAGE = '/images/profile.jpeg width=200 height=200'
 
 
 EXTRA_PATH_METADATA = {
-    'favicon.ico': {'path': 'output/favicon.ico'},
+    'extras/favicon.ico': {'path': 'favicon.ico'},
 }
 
 # Feed generation is usually not desired when developing
