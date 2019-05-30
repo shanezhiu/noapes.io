@@ -21,7 +21,7 @@ THEME = 'themes/pelican-alchemy/alchemy'
 
 SITEIMAGE = '/images/profile.jpeg width=200 height=200'
 
-
+STATIC_PATHS = ['extras', 'images']
 EXTRA_PATH_METADATA = {
     'extras/favicon.ico': {'path': 'favicon.ico'},
 }
