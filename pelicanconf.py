@@ -39,6 +39,11 @@ ARTICLE_SAVE_AS = ARTICLE_URL
 ARTICLE_LANG_URL = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
 
+# A list of directories to exclude when looking for articles in addition to PAGE_PATHS
+ARTICLE_EXCLUDES = [
+    'drafts'
+]
+
 # Blogroll
 # LINKS = (
 #     ('Index', '/'),
