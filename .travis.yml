@@ -1,3 +1,4 @@
-language: python
+language: python3.7
+before_install: pip install pipenv 
 install: true
 script: true
