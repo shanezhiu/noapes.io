@@ -7,10 +7,3 @@ install:
 - pipenv update
 script:
 - pelican content
-addons:
-  ssh_know_hosts: 172.105.8.44
-before_install:
-- openssl aes-256-cbc -K $encrypted_c4a7535501d8_key -iv $encrypted_c4a7535501d8_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
-after_success:
-- ssh travis@172.105.8.44 "./publish.sh"
