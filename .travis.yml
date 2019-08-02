@@ -4,5 +4,4 @@ python:
 install: 
   - pin install -U pip 
   - pip install pipenv 
-install: true
 script: true
