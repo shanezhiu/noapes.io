@@ -1,0 +1,9 @@
+language: python
+before_install: 
+  - pip install -U pip
+  - pip install -U pipenv
+  - pipenv update
+install:
+  - pipenv shell
+  - peclian content
+script: true
