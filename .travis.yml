@@ -1,7 +1,13 @@
+dist: xenial
 language: python
+python:
+  - "3.6"
+  - "3.7"
 before_install: 
   - pip install -U pip
-  - pip install -U pipenv
+  - pip install pipenv
+install:
   - pipenv update
-install: true
-script: true
+  - pipenv shell
+script: 
+  - peclian content
