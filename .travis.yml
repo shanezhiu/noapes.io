@@ -9,5 +9,4 @@ before_install:
 install:
   - pipenv update
 script: 
-  - pipenv shell
-  - peclian content
+  - pipenv shell && peclian content
