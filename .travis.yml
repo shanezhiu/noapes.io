@@ -9,4 +9,4 @@ before_install:
 install:
   - pipenv update
 script: 
-  - peclian content
+  - pipenv run pelican content
