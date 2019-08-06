@@ -5,5 +5,5 @@ before_install:
 install:
   - pipenv update
   - pipenv shell
+script: 
   - peclian content
-script: true
