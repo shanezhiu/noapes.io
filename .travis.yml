@@ -7,6 +7,7 @@ before_install:
   - pip install -U pip
   - pip install pipenv
 install:
-  - pipenv update && pipenv shell
+  - pipenv update
 script: 
+  - pipenv shell
   - peclian content
