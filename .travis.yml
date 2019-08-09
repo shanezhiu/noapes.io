@@ -17,4 +17,4 @@ install:
 script:
 - pipenv run pelican content
 after_success:
-  - ssh $LINODE_SS_USER@$LINODE_SS && cd ~/noapes.io && git pull && pipenv update && pipenv run pelican content
+  - ssh $LINODE_SS_USER@$LINODE_SS 'cd ~/noapes.io && git pull && pipenv update && pipenv run pelican content'
