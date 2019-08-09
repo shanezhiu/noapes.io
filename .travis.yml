@@ -8,4 +8,5 @@ before_install:
 - pip install pipenv
 install:
 - pipenv update
-script: true
+script:
+- pipenv run pelican content
