@@ -19,6 +19,5 @@ install:
 script:
 - pipenv run pelican content
 after_success:
-- ssh $LINODE_S_USER@$LINODE_S 
-- cd $PROJECT && git pull && git submodule update
-  --init --recursive && pipenv update && pipenv run pelican content
+- ssh $LINODE_S_USER@$LINODE_S 'cd /data/webserver/noapes.io && git pull && git submodule update
+  --init --recursive && pipenv update && pipenv run pelican content'
