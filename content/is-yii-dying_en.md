@@ -3,8 +3,6 @@ Category: Programming
 Tags: Web Framework, PHP, Yii, reprinting
 Authors: Paul Klimov
 
-> Origin Url:[is yii dying][1]
-
 > **By Paul Klimov(Former Core Developer)**: 
 
 It is sad to realize, but indeed Yii is dying. But it has nothing to do to the number of the latest commits or outdated milestones. It also has nothing to do with the Qiang leaving the project. For the fully non-commercial open-source project such things are common enough and happens from time to time.
@@ -38,6 +36,8 @@ But the final choice is always up to you.
 **Note:**
 
 It is also dicussed at offical forum as topic:[The future of Yii][4]
+
+> Origin Url:[is yii dying][1]
 
 [1]:https://github.com/yiisoft/CHANGELOG "CHANGELOG"
 [2]:https://yiifeed.com/news/366/yii-21-early-access "yii-21-early-access"
