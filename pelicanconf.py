@@ -74,3 +74,5 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 #RELATIVE_URLS = True~
 
 DISPLAY_PAGES_ON_MENU = True
+
+DISQUS_SITENAME = "noapess-blog"
