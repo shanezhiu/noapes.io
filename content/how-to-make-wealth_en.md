@@ -3,7 +3,6 @@ Category: Startup
 Tags: wealth, reprinting
 Authors: Paul Graham
 
-> Origin Uurl:[How to make wealth][wealth]
 
 If you wanted to get rich, how would you do it? I think your best bet would be to start or join a startup. That's been a reliable way to get rich for hundreds of years. The word "startup" dates from the 1960s, but what happens in one is very similar to the venture-backed trading voyages of the Middle Ages.
 
@@ -282,3 +281,5 @@ What's the connection? None at all. Which is precisely my point. If you want to 
 [11] It may indeed be a sufficient condition. But if so, why didn't the Industrial Revolution happen earlier? Two possible (and not incompatible) answers: (a) It did. The Industrial Revolution was one in a series. (b) Because in medieval towns, monopolies and guild regulations initially slowed the development of new means of production.
 
 [wealth]:http://paulgraham.com/wealth.html?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website "How to make wearlth"
+
+> Origin Uurl:[How to make wealth][wealth]
