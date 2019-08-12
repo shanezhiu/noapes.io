@@ -72,5 +72,4 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True~
-
 DISPLAY_PAGES_ON_MENU = True
