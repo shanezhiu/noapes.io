@@ -3,7 +3,7 @@ Category: Programming
 Tags: code review,clean code,guidelines,reprinting
 Authors: Philipp Hauer
 
-> From: [Philipp Hauer's Blog][from]
+> Origin Url: [Philipp Hauer's Blog][from]
 
 Code reviews are a powerful mean to improve the code quality, establish best practices and to spread knowledge. However, code reviews can come to nothing or harm the interpersonal relations when they are done wrong. Hence, it’s important to pay attention to the human aspects of code reviews. Code reviews require a certain mindset and phrasing techniques in order to be successful. This post provides both the author and the reviewer with a compass for navigating through a constructive, effective and respectful code review.
 <div style="text-align:center">![featured-image-large](./featured-image-large.png)</div>
