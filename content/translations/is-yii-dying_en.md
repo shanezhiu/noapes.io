@@ -5,7 +5,7 @@ Authors: Paul Klimov
 
 > Origin Url:[is yii dying][1]
 
-> **By Paul Klimov(Former Core Developer)**: 
+> **By Paul Klimov(Former Core Developer of Yii)**: 
 
 It is sad to realize, but indeed Yii is dying. But it has nothing to do to the number of the latest commits or outdated milestones. It also has nothing to do with the Qiang leaving the project. For the fully non-commercial open-source project such things are common enough and happens from time to time.
 
