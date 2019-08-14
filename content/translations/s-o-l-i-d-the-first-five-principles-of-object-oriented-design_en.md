@@ -420,7 +420,5 @@ According to the little snippet above, you can now see that both the high level 
 
 Honestly, **S.O.L.I.D** might seem to be a handful at first, but with continuous usage and adherence to its guidelines, it becomes a part of you and your code which can easily be extended, modified, tested, and refactored without any problems.
 
-
 [1]:https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design "S.O.L.I.D: The First 5 Principles of Object Oriented Design"
 [2]:https://en.wikipedia.org/wiki/Robert_C._Martin "Robert C. Martin"
-

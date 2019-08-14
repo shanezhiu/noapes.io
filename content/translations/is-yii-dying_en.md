@@ -39,7 +39,7 @@ But the final choice is always up to you.
 
 It is also dicussed at offical forum as topic:[The future of Yii][4]
 
-[1]:https://github.com/yiisoft/CHANGELOG "CHANGELOG"
+[1]:https://github.com/yiisoft/CHANGELOG "Is Yii Dying?"
 [2]:https://yiifeed.com/news/366/yii-21-early-access "yii-21-early-access"
 [3]:https://www.patreon.com/posts/yii-development-19759260 "patreon.com/yii-development-19759260"
 [4]:https://forum.yiiframework.com/t/the-future-of-yii/124616 "The future of Yii"
