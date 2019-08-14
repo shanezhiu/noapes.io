@@ -3,7 +3,7 @@ Category: Programming
 Tags: Software Development,Software Engineering,tech,reprinting
 Authors: Daan
 
-> Origin Url:[The Differences Between a Junior, Mid-Level, and Senior Developer][１]
+> Origin Url:[The Differences Between a Junior, Mid-Level, and Senior Developer][1]
 
 Being a junior, mid-level, or senior developer doesn’t solely have to do with the years of programming experience that you have. A junior developer can even be older than a senior developer. It all comes down to skill. This doesn’t mean that a senior developer has to be an expert in everything, but it’s safe to say that senior developers are far more skilled than junior and mid-level developers.
 
