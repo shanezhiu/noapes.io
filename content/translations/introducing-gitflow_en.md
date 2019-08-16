@@ -1,6 +1,6 @@
 Title: A successful Git branching model
-Category: Programming, Version Control
-Tags: git,gitflow,workflow
+Category: Programming
+Tags: git,gitflow,workflow,version control
 Authors: Vincent Driessen
 
 > Origin Url: [A successful Git branching model][1]
