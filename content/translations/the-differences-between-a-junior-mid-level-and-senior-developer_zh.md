@@ -3,7 +3,9 @@ Category: Programming
 Tags: Software Development,Software Engineering,tech,reprinting
 Authors: Daan
 Slug: the-differences-between-a-jnior-mid-level-and-senior-developer
-Lang: en
+Lang: zh
+Translation: true
+
 
 > Origin Url:[The Differences Between a Junior, Mid-Level, and Senior Developer][1]
 
