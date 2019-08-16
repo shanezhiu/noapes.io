@@ -32,6 +32,7 @@ Let's look at each principle individually to understand why S.O.L.I.D can help m
 For example, say we have some shapes and we wanted to sum all the areas of the shapes. Well this is pretty simple right?
 
 ```
+<?php
 // PHP code
 class Circle {
     public $radius;
@@ -53,6 +54,7 @@ class Square {
 First, we create our shapes classes and have the constructors setup the required parameters. Next, we move on by creating the **AreaCalculator** class and then write up our logic to sum up the areas of all provided shapes.
 
 ```
+<?php
 // PHP code
 class AreaCalculator {
 
@@ -75,11 +77,13 @@ class AreaCalculator {
         ));
     }
 }
+
 ```
 
 To use the **AreaCalculator** class, we simply instantiate the class and pass in an array of shapes, and display the output at the bottom of the page.
 
 ```
+<?php
 // PHP code
 $shapes = array(
     new Circle(2),
@@ -101,6 +105,7 @@ So, to fix this you can create an **SumCalculatorOutputter** class and use this 
 The **SumCalculatorOutputter** class would work like this:
 
 ```
+<?php
 $shapes = array(
     new Circle(2),
     new Square(5),
@@ -125,6 +130,7 @@ Now, whatever logic you need to output the data to the user is now handled by th
 This simply means that a class should be easily extendable without modifying the class itself. Let's take a look at the **AreaCalculator** class, especially it's **sum** method.
 
 ```
+<?php
 // PHP code
 public function sum() {
     foreach($this->shapes as $shape) {
@@ -144,6 +150,7 @@ If we wanted the **sum** method to be able to sum the areas of more shapes, we w
 A way we can make this **sum** method better is to remove the logic to calculate the area of each shape out of the sum method and attach it to the shape's class.
 
 ```
+<?php
 // PHP code
 class Square {
     public $length;
@@ -162,6 +169,7 @@ class Square {
 The same thing should be done for the **Circle** class, an **area** method should be added. Now, to calculate the sum of any shape provided should be as simple as:
 
 ```
+<?php
 // PHP code
 public function sum() {
     foreach($this->shapes as $shape) {
@@ -177,6 +185,7 @@ Now we can create another shape class and pass it in when calculating the sum wi
 Coding to an interface is an integral part of **S.O.L.I.D**, a quick example is we create an interface, that every shape implements:
 
 ```
+<?php
 // PHP code
 interface ShapeInterface {
     public function area();
@@ -198,6 +207,7 @@ class Circle implements ShapeInterface {
 
 In our **AreaCalculator** sum method we can check if the shapes provided are actually instances of the **ShapeInterface**, otherwise we throw an exception:
 ```
+<?php
 // PHP code
 public function sum() {
     foreach($this->shapes as $shape) {
@@ -222,6 +232,7 @@ All this is stating is that every subclass/derived class should be substitutable
 Still making use of out **AreaCalculator** class, say we have a **VolumeCalculator** class that extends the **AreaCalculator** class:
 
 ```
+<?php
 // PHP code
 class VolumeCalculator extends AreaCalulator {
     public function construct($shapes = array()) {
@@ -239,6 +250,7 @@ class VolumeCalculator extends AreaCalulator {
 In the **SumCalculatorOutputter** class:
 
 ```
+<?php
 // PHP code
 class SumCalculatorOutputter {
     protected $calculator;
@@ -269,6 +281,7 @@ class SumCalculatorOutputter {
 
 If we tried to run an example like this:
 ```
+<?php
 // PHP code
 $areas = new AreaCalculator($shapes);
 $volumes = new AreaCalculator($solidShapes);
@@ -281,6 +294,7 @@ The program does not squawk, but when we call the **HTML** method on the **$outp
 
 To fix this, instead of returning an array from the **VolumeCalculator** class sum method, you should simply:
 ```
+<?php
 // PHP code
 public function sum() {
     // logic to calculate the volumes and then return and array of output
@@ -298,6 +312,7 @@ The summed data as a float, double or integer.
 Still using our shapes example, we know that we also have solid shapes, so since we would also want to calculate the volume of the shape, we can add another contract to the **ShapeInterface**:
 
 ```
+<?php
 interface ShapeInterface {
     public function area();
     public function volume();
@@ -310,6 +325,7 @@ Any shape we create must implement the **volume** method, but we know that squar
 **ISP** says no to this, instead you could create another interface called **SolidShapeInterface** that has the volume contract and solid shapes like cubes e.t.c can implement this interface:
 
 ```
+<?php
 //PHP code
 interface ShapeInterface {
     public function area();
@@ -336,6 +352,7 @@ This is a much better approach, but a pitfall to watch out for is when type-hint
 You can create another interface, maybe **ManageShapeInterface**, and implement it on both the flat and solid shapes, this way you can easily see that it has a single API for managing the shapes. For example:
 
 ```
+<?php
 interface ManageShapeInterface {
     public function calculate();
 }
@@ -369,6 +386,7 @@ The last, but definitely not the least states that:
 This might sound bloated, but it is really easy to understand. This principle allows for decoupling, an example that seems like the best way to explain this principle:
 
 ```
+<?php
 // PHP code
 
 class PasswordReminder {
@@ -388,6 +406,7 @@ Later if you were to change the database engine, you would also have to edit the
 The **PasswordReminder** class should not care what database your application uses, to fix this again we "code to an interface", since high level and low level modules should depend on abstraction, we can create an interface:
 
 ```
+<?php
 // PHP code
 interface DBConnectionInterface {
     public function connect();
@@ -397,6 +416,7 @@ interface DBConnectionInterface {
 
 The interface has a connect method and the **MySQLConnection** class implements this interface, also instead of directly type-hinting **MySQLConnection** class in the constructor of the **PasswordReminder**, we instead type-hint the interface and no matter the type of database your application uses, the **PasswordReminder** class can easily connect to the database without any problems and **OCP** is not violated.
 ```
+<?php
 // PHP code
 class MySQLConnection implements DBConnectionInterface {
     public function connect() {
