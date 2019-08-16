@@ -2,3 +2,4 @@
 output/ 
 content/cv/
 Pipfile.lock
+plugins/
