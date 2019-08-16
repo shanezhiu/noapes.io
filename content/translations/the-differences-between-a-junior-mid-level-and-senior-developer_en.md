@@ -4,7 +4,7 @@ Tags: Software Development,Software Engineering,tech,reprinting
 Slug: the-differences-between-a-jnior-mid-level-and-senior-developer
 Lang: en
 
-![［译］初级，中级，高级开发者间的不同](https://cdn.learnku.com/uploads/images/201908/16/4093/c9H0NJh9Fr.jpeg!/fw/1240 "Photo by Clem Onojeghuo on Unsplash")
+![［译］初级，中级，高级开发者间的不同](/images/20190816/differences.jpeg "Photo by Clem Onojeghuo on Unsplash")
 
 > Origin Url:[The Differences Between a Junior, Mid-Level, and Senior Developer][1]
 

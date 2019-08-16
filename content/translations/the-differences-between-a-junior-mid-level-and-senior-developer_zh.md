@@ -6,8 +6,11 @@ Slug: the-differences-between-a-jnior-mid-level-and-senior-developer
 Lang: zh
 Translation: true
 
+![［译］初级，中级，高级开发者间的不同](/images/20190816/differences.jpeg "Photo by Clem Onojeghuo on Unsplash")
+
 
 > Origin Url:[The Differences Between a Junior, Mid-Level, and Senior Developer][1]
+
 
 初级，中级，高级开发人员不能仅仅通过开发年限来界定，可能存在初级开发人员比一个高级开发人员年龄大的现实。这时候只能依靠掌握的技能来做区分这三者。当然，这并不代表高级开发人员精于一切，但是，的确高级开发人员在技能掌握方面的确比初中级开发人员娴熟许多。然而，高级开发人员与初中级开发人员的区别并不仅仅体现现在编码技能上。
 
