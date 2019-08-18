@@ -25,7 +25,8 @@ STATIC_PATHS = ['extras', 'images']
 EXTRA_PATH_METADATA = {
     'extras/favicon.ico': {'path': 'favicon.ico'},
 }
-
+# sumary max length 
+# SUMMARY_MAX_LENGTH = 30
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

@@ -5,6 +5,10 @@ Authors: Daan
 
 > Origin Url:[The Differences Between a Junior, Mid-Level, and Senior Developer][1]
 
+>　Author: Daan
+
+> Translated By: shane Chiu
+
 初级，中级，高级开发人员不能仅仅通过开发年限来界定，有可能存在一个初级开发人员比高级开发人员年纪还要大的情况．这时候只能依靠掌握的技能来做区分．当然，这并不代表高级开发人员熟知一切，但是，高级开发人员在技能掌握方面的确比初级，中级开发人员娴熟许多．
 
 但是真的仅仅是靠技能来区分这三者吗？　这三者之间真正的区别是什么？
