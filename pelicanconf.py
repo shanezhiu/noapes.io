@@ -40,6 +40,24 @@ ARTICLE_SAVE_AS = ARTICLE_URL
 ARTICLE_LANG_URL = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
 
+# tralstions
+# The default language to use.
+DEFAULT_LANG = 'en'
+# The metadata attribute(s) used to identify which articles are translations of one another.
+ARTICLE_TRANSLATION_ID = 'slug'
+
+# Extra configuration settings for the Markdown processor.
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+# Plugins
+PLUGINS = []
+PLUGIN_PATHS = []
 # A list of directories to exclude when looking for articles in addition to PAGE_PATHS
 ARTICLE_EXCLUDES = [
     'drafts'

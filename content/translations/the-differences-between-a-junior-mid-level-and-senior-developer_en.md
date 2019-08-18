@@ -1,7 +1,10 @@
 Title: The Differences Between a Junior, Mid-Level, and Senior Developer
 Category: Programming
 Tags: Software Development,Software Engineering,tech,reprinting
-Authors: Daan
+Slug: the-differences-between-a-jnior-mid-level-and-senior-developer
+Lang: en
+
+![［译］初级，中级，高级开发者间的不同](/images/20190816/differences.jpeg "Photo by Clem Onojeghuo on Unsplash")
 
 > Origin Url:[The Differences Between a Junior, Mid-Level, and Senior Developer][1]
 
@@ -11,7 +14,7 @@ Being a junior, mid-level, or senior developer doesn’t solely have to do with 
 But more than just coding skills differentiate the senior developer from the mid-level and junior developer. So what exactly are the differences?
 
 # Knowledge
-
+W
 Obviously the senior developer has far more knowledge than the junior and mid-level developer. Knowing design patterns, architecture, automating testing, performance, security, etc. is a good way for a junior developer to close the knowledge gap with the mid-level and senior developers.
 
 It’s important to know how things in software development should be done. But just knowing all this stuff doesn’t make you a senior developer. Knowledge isn’t the biggest difference between developers—it’s just one of the factors.
