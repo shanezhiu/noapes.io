@@ -2,6 +2,8 @@ Title: No, you don't need ML/AI. You need SQL
 Category: Programming
 Tags: ML/AI,tech,reprinting
 Authors: Celestine Omin
+Slug: no-you-not-need-ml-al-you-need-sql
+Lang: en
 
 > Origin Url:[No, you don't need ML/AI. You need SQL][1]
 
