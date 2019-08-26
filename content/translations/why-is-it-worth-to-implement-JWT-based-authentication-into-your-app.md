@@ -1,7 +1,7 @@
 Title: App Security: Why is it worth to implement JWT based authentication into your app?
 Category: Programming
 Tags: Security,http,APP Design,tech,reprinting
-Slug: the-differences-between-a-jnior-mid-level-and-senior-developer
+Slug: why-is-it-worth-to-implement-JWT-based-authentication-into-your-app
 Lang: en
 
 
