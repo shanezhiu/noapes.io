@@ -1,15 +1,13 @@
 ## Composer 初探 - 基本用法
 
-### Composer是什么？
+### Composer 如何进行依赖管理
 
-### Composer 解决了什么痛点？
+#### composer.json
 
-#### PHP 包管理方式
+#### composer.lock
 
-#### PEAR 的管理缺点
+### Composer 基本命令
 
-#### 
+### Composer 配置
 
-### Composer 安装
-
-### 使用 Docker 安装 Composer
+### Composer 自动加载
